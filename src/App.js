@@ -1,37 +1,22 @@
-import "./App.css";
+import InstructorTag from "./components/InstructorTag.js";
+import { AppWrapper } from "./components/styles.js";
+import instructors from "./instructors.js";
 
 const App = () => {
+  const list = instructors.map((instructor) => (
+    <InstructorTag
+      key={instructor.id}
+      name={instructor.name}
+      github={instructor.github}
+      emoji={instructor.emoji}
+    />
+  ));
+
   return (
-    <div className="AppWrapper">
+    <AppWrapper>
       <h2>When in doubt, ask for help!</h2>
-
-      <div
-        className="TagWrapper"
-        onClick={() => window.open(`https://github.com/DarthHamza`)}
-      >
-        <span className="Emoji">🌚</span>
-        <span className="Name">Hamza</span>
-        <span className="GoToGithub">Go to GitHub</span>
-      </div>
-
-      <div
-        className="TagWrapper"
-        onClick={() => window.open(`https://github.com/Lailz`)}
-      >
-        <span className="Emoji">🐥</span>
-        <span className="Name">Laila</span>
-        <span className="GoToGithub">Go to GitHub</span>
-      </div>
-
-      <div
-        className="TagWrapper"
-        onClick={() => window.open(`https://github.com/thehasanas`)}
-      >
-        <span className="Emoji">🦍</span>
-        <span className="Name">Hasan</span>
-        <span className="GoToGithub">Go to GitHub</span>
-      </div>
-    </div>
+      <div>{list}</div>
+    </AppWrapper>
   );
 };
 

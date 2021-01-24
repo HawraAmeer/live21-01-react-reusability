@@ -80,62 +80,64 @@ exports[`renders App correctly 1`] = `
     <h2>
       When in doubt, ask for help!
     </h2>
-    <div
-      class="c1"
-    >
-      <span
-        class="c2"
+    <div>
+      <div
+        class="c1"
       >
-        🌚
-      </span>
-      <span
-        class="c3"
+        <span
+          class="c2"
+        >
+          🌚
+        </span>
+        <span
+          class="c3"
+        >
+          Hamza
+        </span>
+        <span
+          class="c4"
+        >
+          Go to GitHub
+        </span>
+      </div>
+      <div
+        class="c1"
       >
-        Hamza
-      </span>
-      <span
-        class="c4"
+        <span
+          class="c2"
+        >
+          🐥
+        </span>
+        <span
+          class="c3"
+        >
+          Laila
+        </span>
+        <span
+          class="c4"
+        >
+          Go to GitHub
+        </span>
+      </div>
+      <div
+        class="c1"
       >
-        Go to GitHub
-      </span>
-    </div>
-    <div
-      class="c1"
-    >
-      <span
-        class="c2"
-      >
-        🐥
-      </span>
-      <span
-        class="c3"
-      >
-        Laila
-      </span>
-      <span
-        class="c4"
-      >
-        Go to GitHub
-      </span>
-    </div>
-    <div
-      class="c1"
-    >
-      <span
-        class="c2"
-      >
-        🦍
-      </span>
-      <span
-        class="c3"
-      >
-        Hasan
-      </span>
-      <span
-        class="c4"
-      >
-        Go to GitHub
-      </span>
+        <span
+          class="c2"
+        >
+          🦍
+        </span>
+        <span
+          class="c3"
+        >
+          Hasan
+        </span>
+        <span
+          class="c4"
+        >
+          Go to GitHub
+        </span>
+      </div>
     </div>
   </div>
 </div>
